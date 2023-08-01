@@ -1,0 +1,1 @@
+Um pouco de Java em um minuto  classes abstratas e heranças no qual você pode ver que classe abstrata não é instanciada e que os dados serão por conta das classes herdeiras para isso preciso colocar extends antes da classe mãe. Veja bem o exemplo do vídeo.
