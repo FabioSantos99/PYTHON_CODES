@@ -12,7 +12,7 @@ options.add_argument('profile-directory=Default')
 options.add_argument('user-data-dir=/tmp/browser')
 options.add_argument("--start-maximized")
 
-webdriver_service = Service('C:\webdrivers\chromedriver.exe')
+webdriver_service = Service(r'C:\Users\fsant\AppData\Local\Programs\Python\Python311\chromedriver.exe')
 driver = webdriver.Chrome(options=options, service=webdriver_service)
 wait = WebDriverWait(driver, 10)
 
